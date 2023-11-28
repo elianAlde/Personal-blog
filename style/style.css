@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif !important;
+    display: flex !important;
+    justify-content: center !important;
+    height: 100vh !important;
+    color: white !important;
+    background-color: #202020 !important;
+    padding: 50px !important;
+}
+
+#card_dev{
+    background: url(../assets/menu/development.jpg) center / cover no-repeat;
+}
+
+#card_tech{
+    background: url(../assets/menu/pexels-nubia-navarro-\(nubikini\)-981588.jpg) center / cover no-repeat;
+}
+
+#card_daily{
+    background: url(../assets/menu/pexels-h-emre-773471.jpg) center / cover no-repeat;
+}
+
+#card_travel{
+    background: url(../assets/menu/pexels-vojta-kovařík-3243090.jpg) center / cover no-repeat;
+}
+
+#card_moto{
+    background: url(../assets/menu/pexels-daniel-217872.jpg) center / cover no-repeat;
+}
+
+#card_climb{
+    background: url(../assets/menu/pexels-andrew-shelley-8454450.jpg) center / cover no-repeat;
+}
+
+.container{
+    max-width: 700px !important;
+}
+
+body .container .menu-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 50px 60px;
+    border-radius: 16px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+body .container .menu-item .category{
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+body .container .menu-item .info{
+    text-align: center;
+}
+
+body .container .menu-item .info .tags i{
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+body .container .menu-item .info .tags span{
+    font-size: 0.8rem;
+}
+
+body .container .menu-item .info .title{
+    margin: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+body .container .menu-item .info .subtitle{
+    min-width: 70%;
+    margin: 0 auto 20px;
+    font-size: 1rem;
+}
+
+.nav-link{
+    color: white;
+}

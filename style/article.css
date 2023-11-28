@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: #fff;
+    background-color: #202020;
+    padding: 50px;
+}
+
+body .contenitore{
+    max-width: 1000px;
+}
+
+body .details{
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.14);
+    margin-top: 50px;
+    padding: 20px 50px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.68);
+}
+
+body .details .item .item-title{
+    color: #ccc;
+}
+
+body .details .item .item-text{
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
+
+body article{
+    margin-top: 50px;
+    padding-bottom: 20px;
+    line-height: 1.70;
+}
+
+body article h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+body article p{
+    margin-bottom: 20px;
+    color: #999;
+    font-size: 1.1rem;
+}
+
+body article blockquote{
+    margin: 40px 0;
+    background-color: #181818;
+    padding: 30px;
+    border-radius: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    body .contenitore .details {
+        flex-direction: column;
+    }
+
+    body .contenitore .details .item:not(:last-child){
+        margin-bottom: 30px;
+    }
+}
+
+#back{
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0.14);
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
